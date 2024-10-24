@@ -1,7 +1,7 @@
 import { Question } from "@/types/Question";
 
 export const questionsByWeek: { [week: string]: Question[] } = {
-  week1: [
+  week0: [
     {
       question: "What is Psychology?",
       options: ["A Science subject", "Is objective perception", "An art of living", "A thought process", "A study of cognitive processes & behavior"],
