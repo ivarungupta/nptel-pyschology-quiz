@@ -48,7 +48,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
       answer: "Comparative Psychology"
     }
 ],
-week2: [
+week1: [
   {
     question: "Which of the following is true regarding learning in psychology?",
     options: ["The psychology of learning focuses on how people learn and how they interact with the environments in which they have not learnt", "Learning does not involve any changes in the organism", "Learning is a relatively temporary change in behavior", "none of the given"],
@@ -100,7 +100,58 @@ week2: [
     answer: "Freud"
   }
 ],
-
+week2: [
+  {
+    question: "___ is known as the father of modern psychology.",
+    options: ["A. Sigmund Freud", "B. Wilhelm Wundt", "C. John Watson", "D. Lev Vygotsky"],
+    answer: "B. Wilhelm Wundt"
+  },
+  {
+    question: "Cognitivists objected to behaviorists because they felt that behaviorists ignored the important role of ___.",
+    options: ["A. genetics", "B. emotions", "C. thinking", "D. stimulus reaction"],
+    answer: "C. thinking"
+  },
+  {
+    question: "___ is viewed as the mainstream for all research on learning designs.",
+    options: ["A. Psychoanalysis", "B. Positive psychology", "C. Cognitivism", "D. Evolutionary psychology"],
+    answer: "C. Cognitivism"
+  },
+  {
+    question: "___ is a perspective in psychology focusing on the belief that human consciousness cannot be broken down into its elements and is based on the concept of a ‘whole’.",
+    options: ["A. Cognitivism", "B. Behaviorism", "C. Gestalt psychology", "D. Positive psychology"],
+    answer: "C. Gestalt psychology"
+  },
+  {
+    question: "Theory of multiple intelligences is given by ___.",
+    options: ["A. Howard Gardner", "B. Edward C. Tolman", "C. German Gestalt", "D. Robert J. Sternberg"],
+    answer: "A. Howard Gardner"
+  },
+  {
+    question: "The general intelligence factor, also known as g, is what intelligence tests typically measure and refers only to ___.",
+    options: ["A. academic", "B. practical", "C. linguistic", "D. kinesthetic"],
+    answer: "A. academic"
+  },
+  {
+    question: "Cognitive evaluation for planning, attention, simultaneous, and successive processing of individuals can be done through CAS based on PASS theory. CAS here stands for ___.",
+    options: ["A. Cognitive Achievement System", "B. Cognitive Ability System", "C. Cognitive Appraisal System", "D. Cognitive Assessment System"],
+    answer: "D. Cognitive Assessment System"
+  },
+  {
+    question: "BBL is a new science that shapes the learning process and is an approach that is based on the structure and function of the human brain. BBL stands for ___.",
+    options: ["A. Biological based learning", "B. Brain based learning", "C. Biological battery learning", "D. Brain biology learning"],
+    answer: "B. Brain based learning"
+  },
+  {
+    question: "Gagne’s Conditions of Learning is also known as ___ Events of Instruction.",
+    options: ["A. nine", "B. five", "C. ten", "D. seven"],
+    answer: "A. nine"
+  },
+  {
+    question: "Which of the following is not a type of constructivism?",
+    options: ["A. biological", "B. cognitive", "C. social", "D. radical"],
+    answer: "A. biological"
+  }
+],
 week3: [
   {
     question: "Which of the following is not one of the three major processes involved in memory?",
