@@ -1,7 +1,7 @@
 import { Question } from "@/types/Question";
 
 export const questionsByWeek: { [week: string]: Question[] } = {
-  week0: [
+  /**week0: [
     {
       question: "What is Psychology?",
       options: ["A Science subject", "Is objective perception", "An art of living", "A thought process", "A study of cognitive processes & behavior"],
@@ -675,6 +675,622 @@ week12: [
     question: "GAP in the context of Education for Sustainable Development stands for ___.",
     options: ["General Activity Priority", "Global Action Programme", "Global Achievement Programme", "General Awareness Programme"],
     answer: "Global Action Programme"
+  }
+],**/
+  week1: [
+  {
+    "question": "Which one of the following is not the theory of emotion?",
+    "options": ["James-Lange Theory", "Cannon-Bard theory", "Schachter and Singer theory", "Coding theory"],
+    "answer": "Coding theory"
+  },
+  {
+    "question": "Wisdom deals with important or difficult matters of life and the human condition.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "William Stern gave the concept of",
+    "options": ["EQ", "CAS", "IQ", "Both EQ and IQ"],
+    "answer": "IQ"
+  },
+  {
+    "question": "In the full form of 'CAS', 'S' stands for",
+    "options": ["Successive", "System", "Simultaneous", "Social"],
+    "answer": "System"
+  },
+  {
+    "question": "Robert Sternberg gave the _________ process model",
+    "options": ["Triarchic", "Bi-factor", "Multifactor", "Two-factor"],
+    "answer": "Triarchic"
+  },
+  {
+    "question": "Processing is pragmatic intelligence",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Wisdom is expressed in terms of care, concern and commitment",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "'Arithmetic facts' is an example of",
+    "options": ["Crystallized Intelligence", "Broad Visual Perception", "Broad retrieval ability", "Fluid Intelligence"],
+    "answer": "Crystallized Intelligence"
+  },
+  {
+    "question": "The ability to think on the spot and solve novel problems is Crystallized Intelligence",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Baltes and Straudinger describe the four characteristics of wisdom in __________",
+    "options": ["1990", "2000", "1993", "1880"],
+    "answer": "1993"
+  },
+  {
+    "question": "________intelligence is the factual knowledge about the world",
+    "options": ["Crystallized", "Fluid", "Emotional", "Social"],
+    "answer": "Crystallized"
+  },
+  {
+    "question": "We can practice creativity to reach at a stage of wisdom",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Sacrifice is the highest level of _______",
+    "options": ["Wisdom", "Criticism", "Neurosis", "Apathy"],
+    "answer": "Wisdom"
+  },
+  {
+    "question": "The concept of emotional intelligence was popularized in mainstream society by",
+    "options": ["Paul Ekman", "Howard Gardner", "Daniel Goleman", "John Mayer"],
+    "answer": "Daniel Goleman"
+  },
+  {
+    "question": "__________ specialized in measuring psychological characteristics for intelligence and personality.",
+    "options": ["Psychometricians", "Pediatricians", "Neurologists", "Cardiologist"],
+    "answer": "Psychometricians"
+  }
+],
+week2: [
+  {
+    "question": "_________ refers to the stability of test score",
+    "options": ["Reliability", "Validity", "Norm", "Score"],
+    "answer": "Reliability"
+  },
+  {
+    "question": "________ is a standard score by the help of which we compare individual scores on a particular test",
+    "options": ["Reliability", "Validity", "Norm", "Apathy"],
+    "answer": "Norm"
+  },
+  {
+    "question": "__________ is known as the first measure of emotional intelligence",
+    "options": ["ECI", "EQI", "MSCEIT", "BEIS"],
+    "answer": "EQI"
+  },
+  {
+    "question": "____________ is the ability to identify and understand the interrelationship between emotions, thoughts and behaviour",
+    "options": ["Emotional understanding", "Emotional management", "Apathy", "Neurosis"],
+    "answer": "Emotional understanding"
+  },
+  {
+    "question": "_________ is the ability to experience and express emotions in self and others appropriately",
+    "options": ["IQ", "Emotions", "Interpersonal conflict", "Emotional intelligence"],
+    "answer": "Emotional intelligence"
+  },
+  {
+    "question": "Successive processing is a mental activity by which a person integrates stimuli in a specific serial order.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "CAS test is developed by",
+    "options": ["DAS and Naglieri", "Sternberg", "Daniel Goleman", "Martin Seligman"],
+    "answer": "DAS and Naglieri"
+  },
+  {
+    "question": "A culture fair or culture reduced test is a test that would make minimal use of language and not ask for any specific facts.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "According to Luria, the third functional unit of the brain is responsible for",
+    "options": ["Planning", "Attention", "Information Processing", "Information retrieval"],
+    "answer": "Planning"
+  },
+  {
+    "question": "WISC III can be used to assess infant intelligence",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "A test may be called reliable if it measures what it is intended to measure",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Mayer and Salovey defined EI in terms of ____________ major components",
+    "options": ["Two", "Three", "Six", "Four"],
+    "answer": "Four"
+  },
+  {
+    "question": "Stanford-Binet’s Test is a set of:",
+    "options": ["Code-graded items", "Aptitude-graded items", "Age-graded items", "Sociocultural items"],
+    "answer": "Age-graded items"
+  },
+  {
+    "question": "_____ intelligence refers to the ability to notice and make distinctions among the moods, temperaments, motivations and intentions of other people and potentially to act on this knowledge.",
+    "options": ["Intrapersonal", "Bodily-Kinesthetic", "Interpersonal", "Existential"],
+    "answer": "Interpersonal"
+  },
+  {
+    "question": "Binet and Simon created the first intelligence test.",
+    "options": ["True", "False"],
+    "answer": "True"
+  }
+],
+week3: [
+  {
+    "question": "Which one of the following is not a characteristic of a person with low EI?",
+    "options": ["Blind ambition", "Realistic goals", "Relentless striving", "Need to seem perfect"],
+    "answer": "Realistic goals"
+  },
+  {
+    "question": "Person with __________ EI can easily make acquaintances and friends",
+    "options": ["Low", "High", "Neutral", "Very low"],
+    "answer": "High"
+  },
+  {
+    "question": "___________ is more scientific in nature",
+    "options": ["Projective test", "Psychometric test", "Clinical interview", "Behavioural assessment"],
+    "answer": "Psychometric test"
+  },
+  {
+    "question": "Reality testing is associated with Bar-On Theory of Emotional Intelligence",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Projective test is ___________",
+    "options": ["Subjective", "Objective", "Numerical", "Quantitative"],
+    "answer": "Subjective"
+  },
+  {
+    "question": "Person with high EI knows how to make _____ emotions to last when they experience it",
+    "options": ["Positive", "Negative", "Sad", "Fearful"],
+    "answer": "Positive"
+  },
+  {
+    "question": "A little anxiety helps us focus the mind; too much can paralyze it",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "_________ take less time and is cost effective",
+    "options": ["Projective Test", "Psychometric test", "Behavioural Assessment", "Clinical Interview"],
+    "answer": "Psychometric test"
+  },
+  {
+    "question": "“TAT” is a",
+    "options": ["Discourse Analysis", "Psychometric Test", "Projective test", "Aptitude Test"],
+    "answer": "Projective test"
+  },
+  {
+    "question": "In corporate world IQ gets you___________",
+    "options": ["Hired", "Meditated", "Neurosis", "All of these"],
+    "answer": "Hired"
+  },
+  {
+    "question": "“EQ-i” is based on",
+    "options": ["Ability-based model of Mayer and Salovey", "Goleman’s Model", "Bar-On’s Model", "Cooper and Sawaf’s Model"],
+    "answer": "Bar-On’s Model"
+  },
+  {
+    "question": "“IRI” stands for",
+    "options": ["Intrapersonal Receptivity Index", "Interpersonal Receptivity Index", "Interpersonal Reactivity Index", "Intrapersonal Response Index"],
+    "answer": "Interpersonal Reactivity Index"
+  },
+  {
+    "question": "Emotional literacy helps a person to develop a sound emotional vocabulary to recognize and understand the emotions in oneself and others.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "EI scale was developed by R.K.Pradhan in 2006",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "SRT is a Psychometric Test",
+    "options": ["True", "False"],
+    "answer": "False"
+  }
+],
+week4: [
+  {
+    "question": "AQ stands for",
+    "options": ["Apathy Quotient", "Attraction Quotient", "Adversity Quotient", "Application Quotient"],
+    "answer": "Adversity Quotient"
+  },
+  {
+    "question": "According to research, EQ contributes to what percentage of a person's success in life?",
+    "options": ["30%", "70%", "90%", "80%"],
+    "answer": "80%"
+  },
+  {
+    "question": "EI/EQ distinguishes the best from the rest",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "If a person is good at resilience, he is likely to deal effectively with the difficult situations of life.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Resilience refers to ___________",
+    "options": ["The ability to avoid stress and adversity", "Thriving upon stress and quickly recovering from adversity", "Experiencing denial", "Suppressing emotions to handle stress effectively"],
+    "answer": "Thriving upon stress and quickly recovering from adversity"
+  },
+  {
+    "question": "If you have a good number of people around you during the time of your stress, it indicates your interpersonal communication is _________",
+    "options": ["Very Bad", "Worst", "Can’t Say", "Good"],
+    "answer": "Good"
+  },
+  {
+    "question": "A person who holds always a positive outlook in life they always think that challenges are ________",
+    "options": ["Trouble", "Opportunities", "Hindrance", "Learning obstacles"],
+    "answer": "Opportunities"
+  },
+  {
+    "question": "_______ means ability to think something new that never exist before.",
+    "options": ["Neurosis", "Neutral", "Creativity", "Apathy"],
+    "answer": "Creativity"
+  },
+  {
+    "question": "People having ________ always have patience, composure, confident and always think from various grounds to generate multiple solutions or options to solve their problems.",
+    "options": ["Positive outlook", "Trouble", "Apathy", "Neuropathy"],
+    "answer": "Positive outlook"
+  },
+  {
+    "question": "EQ develops continuously throughout life, whereas IQ declines after a certain age.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Integrity means acting openly, honestly and consistently.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "________ is the hopefulness that life will be brighter in the future.",
+    "options": ["Optimism", "Apathy", "Bipolar", "Unipolar"],
+    "answer": "Optimism"
+  },
+  {
+    "question": "Listening to one’s inner voice is known as ________.",
+    "options": ["Intuition", "Inspiration", "Apathy", "Honesty"],
+    "answer": "Intuition"
+  },
+  {
+    "question": "IQ is componential in nature.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "______ is the ability to turn negative opinions, thoughts or ideas into positive ones.",
+    "options": ["Apathy", "Creativity", "Constructive discontent", "Intentionality"],
+    "answer": "Constructive discontent"
+  }
+],
+week5: [
+  {
+    "question": "__________ is displaying only concerns about others",
+    "options": ["Allopathy", "Sympathy", "Apathy", "Hatred"],
+    "answer": "Sympathy"
+  },
+  {
+    "question": "Quantitative assessment is number based and qualitative assessment is in terms of _______",
+    "options": ["Words, art forms", "Derivation forms", "Data points, statistical methods", "Artificial forms"],
+    "answer": "Words, art forms"
+  },
+  {
+    "question": "_________learner has a deep understanding of oneself and respects the complex identities, histories, and cultures of others.",
+    "options": ["Competent", "Empowered", "Informed", "Responsible"],
+    "answer": "Responsible"
+  },
+  {
+    "question": "Deficient emotional skills may be the reason more than half of marriage ends in divorce.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "EBI First year Initiative is a",
+    "options": ["Quantitative Assessment", "Qualitative Assessment", "Both Quantitative and Qualitative Assessment", "None of these"],
+    "answer": "Quantitative Assessment"
+  },
+  {
+    "question": "Who understands the human imagination, expression, and the products of many cultures?",
+    "options": ["Empowered Learner", "Informed Learner", "Responsible Learner", "None of these"],
+    "answer": "Informed Learner"
+  },
+  {
+    "question": "Which of the following is a major component of Bar-On’s Theory of emotional intelligence?",
+    "options": ["Knowing one’s emotion", "Recognizing emotions in others", "Understanding and analysing emotions", "Stress management"],
+    "answer": "Stress management"
+  },
+  {
+    "question": "There is a direct association between emotional intelligence and self-actualization need",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "“Social Responsibility” comes under __________ in the EQ-i.",
+    "options": ["Personal and interpersonal effectiveness", "Effective Relationship", "Interpersonal Scales", "Self-Awareness"],
+    "answer": "Interpersonal Scales"
+  },
+  {
+    "question": "______measure student writing and presentations by self, peers, and others",
+    "options": ["E-Port", "Student Narratives", "The Bull’s Eye", "Rubrics"],
+    "answer": "Rubrics"
+  },
+  {
+    "question": "Emotional intelligence is positively related to neuroticism.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "___ leader always assimilates diverse ideas from different people.",
+    "options": ["Impulsive", "Emotionally intelligent", "Apathetic", "Close-minded"],
+    "answer": "Emotionally intelligent"
+  },
+  {
+    "question": "Emotional intelligence creates awareness about displaying ___ towards others.",
+    "options": ["Apathy", "Hostility", "Empathy", "Aggressiveness"],
+    "answer": "Empathy"
+  },
+  {
+    "question": "Emotionally intelligent leaders can transform a negative situation into a positive one by understanding ____ needs of their people.",
+    "options": ["Financial", "Physical", "Social", "Emotional"],
+    "answer": "Emotional"
+  },
+  {
+    "question": "EQ skills and competencies are non-cognitive abilities.",
+    "options": ["True", "False"],
+    "answer": "True"
+  }
+],
+week6: [
+  {
+    "question": "Alexithymia has been positively correlated with maladaptive coping",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Individuals with higher levels of emotional intelligence may struggle to maintain an effective work-life balance.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "_____ is the ability to control impulses and moods.",
+    "options": ["Empathy", "Self-regulation", "Social skills", "Motivation"],
+    "answer": "Self-regulation"
+  },
+  {
+    "question": "___________focused on returning to its neglected mission of empowering normal individuals to become stronger and more productive.",
+    "options": ["Positive psychology", "Cognitive psychology", "Clinical psychology", "Industrial psychology"],
+    "answer": "Positive psychology"
+  },
+  {
+    "question": "Low EI has a positive relationship with anxiety and depressive disorders.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Who is known as the Father of Positive Psychology?",
+    "options": ["Martin Seligman", "Daniel Goleman", "John D. Mayer", "Peter Salovey"],
+    "answer": "Martin Seligman"
+  },
+  {
+    "question": "According to Seligman, which one of the following is not an important route to happiness",
+    "options": ["Pleasant life", "Good life", "Meaningful life", "Luxurious life"],
+    "answer": "Luxurious life"
+  },
+  {
+    "question": "_______ is a psychology that is interested in simply what works rather than what does not. Or ‘what is right with the person? Rather than ‘what is wrong?",
+    "options": ["Positive psychology", "Cognitive psychology", "Clinical psychology", "Industrial psychology"],
+    "answer": "Positive psychology"
+  },
+  {
+    "question": "Which of the following is not a dimension of Wong’s emotional intelligence scale?",
+    "options": ["Appraisal and expression of emotion in self", "Appraisal and recognition of emotions in others", "Regulation of emotions in self", "Building relationships with others"],
+    "answer": "Building relationships with others"
+  },
+  {
+    "question": "“Knowing your signature strength and recreating your life to use those strengths to have more flow in life” illustrates",
+    "options": ["Good Life", "Pleasant Life", "Meaningful life", "Adventurous life"],
+    "answer": "Good Life"
+  },
+  {
+    "question": "According to research, optimism enhances the survival capacity of cancer patients, and people who are living with heart diseases or AIDS",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "“Creativity and excellence” are examples of _____",
+    "options": ["Positive Trait", "Positive Emotions", "Positive Institution", "None of these"],
+    "answer": "Positive Trait"
+  },
+  {
+    "question": "The theory of ______ says that as we grow, we develop the ability to focus more on the positives around us rather than on the negatives.",
+    "options": ["Emotion Regulation", "Socioemotional Selectivity", "Attachment", "Emotional Intelligence"],
+    "answer": "Socioemotional Selectivity"
+  },
+  {
+    "question": "Direct reading classes on personality development, value education, is a common method for enhancing EI",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Who proposed the Sustainable Happiness Model?",
+    "options": ["Martin Seligman", "Daniel Kahneman", "Ed Diener", "Sonja Lyubomirsky, Kennon M. Sheldon & David Schkade"],
+    "answer": "Sonja Lyubomirsky, Kennon M. Sheldon & David Schkade"
+  }
+],
+week7: [
+  {
+    "question": "According to research intentional activity contributes __________ of happiness.",
+    "options": ["50%", "30%", "40%", "45%"],
+    "answer": "40%"
+  },
+  {
+    "question": "Leader roles are well defined, whereas manager roles are beyond the boundary",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Emotional intelligence is not about being emotional, it is about being __________ with your emotions",
+    "options": ["Smart", "Indifferent", "Reckless", "Distant"],
+    "answer": "Smart"
+  },
+  {
+    "question": "Having a positive attitude towards life is a ___________ skill to enhance one’s emotional intelligent",
+    "options": ["Cognitive", "Behavioural", "Physical", "Mechanical"],
+    "answer": "Cognitive"
+  },
+  {
+    "question": "Which of the following statements is not true for emotional intelligence?",
+    "options": ["Emotional intelligence is about being honest.", "Emotional intelligence is about being aware of your feelings and those of others.", "Emotional intelligence is about being smart with your emotions", "Emotional intelligence is about being nice all the time."],
+    "answer": "Emotional intelligence is about being nice all the time."
+  },
+  {
+    "question": "Leaders always believe in short-term achievement",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "All managers are at least leaders, but all leaders are not managers",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Developing realistic expectations is a ____ skill to enhances one’s emotional intelligent",
+    "options": ["Cognitive", "Behavioural", "Physical", "Mechanical"],
+    "answer": "Cognitive"
+  },
+  {
+    "question": "Leadership relies more on __________ power according to kotter, 1990.",
+    "options": ["Coding", "Coercive", "Personal", "Negative"],
+    "answer": "Personal"
+  },
+  {
+    "question": "Life satisfaction is Eudaimonic well-being",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Emotional intelligence is about being impulsive all the time",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Which of the following is not an emotional skill of emotional intelligence?",
+    "options": ["Expressing, identifying and labelling feelings", "Managing feelings and impulses", "Delaying gratification and reducing stress", "Developing unrealistic expectations"],
+    "answer": "Developing unrealistic expectations"
+  },
+  {
+    "question": "Nurturant task Leadership is a leadership __________",
+    "options": ["Trait", "Style", "Situation", "None of These"],
+    "answer": "Style"
+  },
+  {
+    "question": "Love, work and play is a life enhancement strategy",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is not a component of Ryff’s Psychological Wellbeing model?",
+    "options": ["Autonomy", "Personal growth", "Self-acceptance", "Apathy"],
+    "answer": "Apathy"
+  }
+],
+week8: [
+  {
+    "question": "___________ culture is called our language, beliefs, values etc.",
+    "options": ["Non-materialistic", "Materialistic", "Economic", "Technological"],
+    "answer": "Non-materialistic"
+  },
+  {
+    "question": "Monitor and attempt to make better hidden attitudes before they are expressed through your behaviours is a way to reduce the impact of stereotyping",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "_________ is not a characteristic of cultural competence.",
+    "options": ["Valuing the differences/similarities between persons and groups", "Making the knowledge of a culture a part of oneself", "Ignoring one’s strengths and capabilities", "Recognizing the importance of a person’s life context"],
+    "answer": "Ignoring one’s strengths and capabilities"
+  },
+  {
+    "question": "________ is not a key element of culturally competent organizations",
+    "options": ["Value diversity", "Acquire and institutionalize cultural knowledge", "Practicing discrimination", "Manage the dynamics of difference"],
+    "answer": "Practicing discrimination"
+  },
+  {
+    "question": "A process of learning that leads to an ability to effectively respond to the challenges and opportunities posed by the presence of cultural diversity in a defined social system is known as?",
+    "options": ["Cultural Incapacity", "Cultural Competence", "Cultural Destructiveness", "Cultural Incompetence"],
+    "answer": "Cultural Competence"
+  },
+  {
+    "question": "Materialistic Culture is _______",
+    "options": ["Tangible", "Non-tangible", "Neurotic", "Irrational"],
+    "answer": "Tangible"
+  },
+  {
+    "question": "Making a conscious decision to be egalitarian, which may lead one to widen one’s circle of friends and knowledge of other groups, is a way to increase the strength of stereotyping",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Which of the following is not a primary approach to cross-cultural education?",
+    "options": ["Address Attitudes", "Increase Knowledge", "Develop Skills", "Disregard Awareness"],
+    "answer": "Disregard Awareness"
+  },
+  {
+    "question": "“Rules dictating how universal emotional expressions should be modified according to specific social situations” is known as?",
+    "options": ["Social Conventions", "Cultural Norms", "Emotional Etiquette", "Cultural Display Rules"],
+    "answer": "Cultural Display Rules"
+  },
+  {
+    "question": "Which of the following is not a type of cultural quotient (CQ)?",
+    "options": ["Motivational CQ", "Behavioural CQ", "Metacognitive CQ", "Wellbeing CQ"],
+    "answer": "Wellbeing CQ"
+  },
+  {
+    "question": "Culture is the transfer of knowledge, language, and values from one generation to another.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Cultural ethos is enduring in nature",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is at the bottom of the cultural iceberg?",
+    "options": ["Health Status", "Marital Status", "Gender", "Religion"],
+    "answer": "Health Status"
+  },
+  {
+    "question": "Cultural differences exist in the frequencies of antecedents that bring about an emotion.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "“The physical aspects that members of a society can make, use and share” is known as?",
+    "options": ["Non-material culture", "Symbol", "Material culture", "Norms"],
+    "answer": "Material culture"
   }
 ],
 };
