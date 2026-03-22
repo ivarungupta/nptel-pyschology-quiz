@@ -25,7 +25,7 @@ export default function Home() {
         <div className="mb-16 flex flex-col md:flex-row items-center justify-between">
           <div className="text-left mb-8 md:mb-0">
             <h1 className="text-6xl font-bold mb-2 tracking-tighter font-sans">NPTEL</h1>
-            <h2 className="text-2xl font-light">Psychology Of Learning Quiz</h2>
+            <h2 className="text-2xl font-light">Emotional Intelligence Quiz</h2>
           </div>
           <div className="h-0.5 w-24 bg-white md:hidden"></div>
           <div className="hidden md:flex space-x-4">
@@ -77,7 +77,7 @@ export default function Home() {
 
         <div className="text-left">
           <p className="text-gray-500 text-sm">
-            Master the NPTEL Psychology Of Learning course material and ace your MOOC exam with the
+            Master the NPTEL Emotional Intelligence course material and ace your MOOC exam with the
             specialized quiz app. (Revamp by Varun, OC:Sreecharan)
           </p>
         </div>
